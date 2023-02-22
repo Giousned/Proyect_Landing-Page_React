@@ -10,3 +10,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#jumbotron{
+    background: #e5e7e9;
+}
