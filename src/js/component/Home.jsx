@@ -1,9 +1,8 @@
 import React from "react";
-import reactDom from "react-dom";
 
 import NavBar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
-import Card from "./Card.jsx";
+import Cards from "./Cards.jsx";
 import Footer from "./Footer.jsx";
 
 //include images into your bundle
@@ -18,7 +17,7 @@ function Home() {
       </div>
       <div className="container mb-4 ">
         <Jumbotron />
-        <Card />
+        <Cards />
       </div>
       <div className="container-fluid">
         <Footer />
