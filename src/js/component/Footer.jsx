@@ -4,7 +4,7 @@ import React from "react";
 // import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Footer = (props) => {
+const Footer = () => {
   return (
     // FOOTER 		<footer></footer>
     <div className="text-center text-lg-start text-bg-dark">

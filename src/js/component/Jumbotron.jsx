@@ -4,7 +4,7 @@ import React from "react";
 // import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Jumbotron = (props) => {
+const Jumbotron = () => {
   return (
     <div className="m-3 p-4" id="jumbotron">
       <h1 className="display-5 fw-semibold">A Warm Welcome!</h1>

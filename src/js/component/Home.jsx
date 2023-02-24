@@ -2,7 +2,9 @@ import React from "react";
 
 import NavBar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx";
-import Cards from "./Cards.jsx";
+import { Input } from "./Input.jsx";
+import CardsVariable from "./CardsVariable.jsx";
+// import Cards from "./Cards.jsx";
 import Footer from "./Footer.jsx";
 
 //include images into your bundle
@@ -15,9 +17,10 @@ function Home() {
       <div className="container-fluid">
         <NavBar />
       </div>
-      <div className="container mb-4 ">
+      <div className="container mb-4">
         <Jumbotron />
-        <Cards />
+        <Input />
+        <CardsVariable />
       </div>
       <div className="container-fluid">
         <Footer />
@@ -25,10 +28,7 @@ function Home() {
     </>
   );
 
-  // <NavBar />
-  // <Jumbotron />
   // <Card />
-  // <Footer />
 }
 
 export default Home;

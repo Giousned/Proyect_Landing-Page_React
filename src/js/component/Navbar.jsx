@@ -4,7 +4,7 @@ import React from "react";
 // import rigoImage from "../../img/rigo-baby.jpg";
 
 //create component
-const NavBar = (props) => {
+const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg text-bg-dark">
       <div className="container-fluid">

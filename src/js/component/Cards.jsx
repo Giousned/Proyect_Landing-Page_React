@@ -43,7 +43,7 @@ const cards = [
 ];
 
 //create your first component
-const Cards = (props) => {
+const Cards = () => {
   return (
       <div className="row row-cols-1 row-cols-md-4 g-4 m-3">
         {cards.map((card, index) => (
