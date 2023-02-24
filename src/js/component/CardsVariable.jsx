@@ -7,7 +7,7 @@ import Card from "./Card.jsx";
 // import rigoImage from "../../img/rigo-baby.jpg";
 // style= "width 18rem"
 
-let contador = 6;
+let contador = 4;
 const cards = [];
 
 export function cardsValor () {
