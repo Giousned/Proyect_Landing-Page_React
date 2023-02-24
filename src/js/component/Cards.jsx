@@ -2,11 +2,6 @@ import React from "react";
 
 import Card from "./Card.jsx";
 
-//include images into your bundle
-// import rigoImage from "../../img/rigo-baby.jpg";
-
-// style= "width 18rem"
-
 const cards = [
   {
     imageUrl:
@@ -42,7 +37,7 @@ const cards = [
   },
 ];
 
-//create your first component
+//create your component
 const Cards = () => {
   return (
       <div className="row row-cols-1 row-cols-md-4 g-4 m-3">

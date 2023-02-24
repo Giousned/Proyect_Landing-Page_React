@@ -1,10 +1,12 @@
 import React from "react";
 import { useState } from "react";
 
+// import { handleInputValor } from "./Home";
+
 
 //create your component
-export function Input() {
-  const [value, setValue] = useState("");
+const Input = () => {
+  const [value, setValue] = useState();
 
   return (
     <div className="d-flex">
@@ -16,11 +18,15 @@ export function Input() {
             name="size"
             className="mx-2"
             value={value}
-            onChange={(e) => setValue(e.target.value)}
-            id="inputValor"
+            onChange={(e) => {
+              setValue(e.target.value);
+              handleInputValor(e.target.value);
+            }}
           />
         </label>
       </form>
     </div>
   );
 }
+
+export default Input;
