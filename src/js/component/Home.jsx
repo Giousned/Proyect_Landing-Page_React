@@ -10,15 +10,14 @@ import Footer from "./Footer.jsx";
 
 let contador = 4;
 
-export const handleInputValor = (valor) => {
-  contador = valor;
-}
-
-
 //create your first component
 function Home() {
+
   const [estado, setEstado] = useState(contador);
 
+  const handleInputValor = (valor) => {
+    setEstado(valor);    
+  }
 
   return (
     <>
@@ -27,9 +26,9 @@ function Home() {
       </div>
       <div className="container mb-4">
         <Jumbotron />
-        <Input />
+        <Input funcionValor={handleInputValor} />
         {/* <Cards /> */}
-        <CardsVariable valor={estado} funcionValor={handleInputValor()} />
+        <CardsVariable valor={estado} />
       </div>
       <div className="container-fluid">
         <Footer />
