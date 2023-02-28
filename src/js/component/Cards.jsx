@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Card from "./Card.jsx";
 
@@ -50,5 +51,13 @@ const Cards = () => {
       </div>
   );
 }
+
+Cards.propTypes = {
+  imageUrl: PropTypes.string,
+  title: PropTypes.string,
+  text: PropTypes.string,
+  butonUrl: PropTypes.string,
+  butonLabel: PropTypes.string,
+};
 
 export default Cards;

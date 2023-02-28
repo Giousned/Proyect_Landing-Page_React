@@ -1,5 +1,6 @@
 import React from "react";
 
+
 //create component
 const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ const NavBar = () => {
         </a>
 
         <button
-            className="navbar-toggler bg-secondary"
+            className="navbar-toggler bg-body-secondary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarTogglerDemo03"
