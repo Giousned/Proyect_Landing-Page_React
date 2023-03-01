@@ -24,7 +24,7 @@ const Input = (props) => {
 export default Input;
 
 
-{/*
+{/*  USAR SIEMPRE LOS FORMULARIOS ASI, CON UN HANDLE SUBMIT Y PASANDOSE ESTOS ESTADOS
   const [value, setValue] = useState(); 
 <input
 type="text"
